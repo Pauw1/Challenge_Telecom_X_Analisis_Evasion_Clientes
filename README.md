@@ -43,6 +43,3 @@ Se implementó un flujo **ETL + EDA** para:
 
 ---
 
-## 🚀 Próximos pasos  
-- Preparar dataset final para **modelado predictivo de churn**.  
-- Entrenar modelos de clasificación (L
