@@ -39,7 +39,9 @@ Se implementó un flujo **ETL + EDA** para:
    - Seniors, clientes sin dependientes y usuarios nuevos (<6 meses) muestran mayor probabilidad de churn.  
 
 5. **Facturación mensual alta aumenta el abandono**  
-   - Clientes con cargos >80 USD son más propensos a cambiar de proveedor.  
-
+   - Clientes con cargos >80 USD son más propensos a cambiar de proveedor.
+     
+## 👩‍💻 Autora  
+Proyecto desarrollado por **Paulina Rojas** como parte del Challenge de Data Science
 ---
 
