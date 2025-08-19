@@ -3,43 +3,46 @@ Challenge N°2 de Especialización en Data Sience 2025 - Grupo 8 del Programa ON
 
 # 📊 Telecom X - Análisis de Evasión de Clientes (Churn Analysis)
 
-## 📌 Descripción del Proyecto  
-Este proyecto corresponde al **Challenge 2 de Data Science**, cuyo objetivo es **analizar la evasión de clientes (churn)** en una empresa de telecomunicaciones ficticia llamada **Telecom X**.  
+## 🚀 Propósito del análisis  
+Este proyecto corresponde al **Challenge N°2 de la Especialización en Data Science 2025 (Programa ONE con Alura Latam)**.  
 
-Se implementó un flujo **ETL + EDA** para:  
-- Extraer y limpiar los datos desde una API en formato JSON.  
-- Transformar y normalizar tablas anidadas (`customer`, `phone`, `internet`, `account`).  
-- Realizar un análisis exploratorio de datos (EDA) para identificar factores asociados al abandono de clientes.  
-- Generar insights de negocio y recomendaciones estratégicas.  
+El análisis busca entender las **razones de la pérdida de clientes (churn)** en la empresa ficticia **Telecom X**, aplicando un flujo completo de **ETL + Análisis Exploratorio de Datos (EDA)**.  
+El objetivo es extraer **insights estratégicos** que sirvan como base para futuros **modelos predictivos de churn** y el diseño de **estrategias de retención**.  
 
 ---
 
-## ⚙️ Tecnologías utilizadas  
-- **Python 3.9+**  
-- Librerías principales:  
-  - `pandas`, `numpy` → Manipulación de datos  
-  - `matplotlib`, `seaborn`, `plotly` → Visualización  
-  - `requests` → Extracción desde API  
-  - `scikit-learn` → Preparación para modelos predictivos  
+## 📂 Estructura del proyecto  
+- **`PR_TelecomX_LATAM.ipynb`** → Notebook principal con todo el análisis.  
+- **Extracción** → Obtención de datos desde un archivo JSON público en GitHub.  
+- **Transformación** → Normalización, limpieza y unión de datasets en un único DataFrame.  
+- **Carga y análisis** → Exploración, creación de gráficos y generación de insights.  
 
 ---
 
-## 🔍 Insights principales  
+## 📈 Ejemplos de gráficos e insights obtenidos  
 
-1. **Tipo de contrato es el factor más crítico**  
-   - Clientes con contrato mensual presentan un 41% de abandono, mientras que en contratos de 2 años solo un 2.7%.  
+Algunos de los hallazgos destacados en el análisis:  
+- 📉 Los clientes con **contratos mensuales** muestran una **mayor tasa de cancelación** frente a los de contratos a largo plazo.  
+- 🌐 Los usuarios con **servicio de Internet de fibra óptica** tienden a presentar un **churn más alto** que quienes usan DSL.  
+- 💳 La **forma de pago** influye en la evasión: quienes pagan con **mes a mes y medios electrónicos** tienen mayor probabilidad de abandonar.  
+- 📊 Las visualizaciones ayudan a identificar segmentos críticos para implementar estrategias de fidelización.  
 
-2. **Método de pago influye fuertemente**  
-   - El pago con *electronic check* tiene un 43% de churn, el más alto entre los métodos.  
+Ejemplo de gráficos presentes en el notebook:  
+- Histogramas de distribución de variables (edad, cargos mensuales, duración del contrato).  
+- Gráficos de barras comparando churn según tipo de servicio o contrato.  
+- Diagramas que muestran correlaciones entre variables numéricas y el churn.  
 
-3. **Internet de fibra óptica tiene mayor tasa de abandono**  
-   - Indica posibles problemas de precio o calidad de servicio.  
+---
 
-4. **Segmentos de riesgo**  
-   - Seniors, clientes sin dependientes y usuarios nuevos (<6 meses) muestran mayor probabilidad de churn.  
+## ⚙️ Instrucciones para ejecutar el notebook  
 
-5. **Facturación mensual alta aumenta el abandono**  
-   - Clientes con cargos >80 USD son más propensos a cambiar de proveedor.
+1. Clonar o descargar este repositorio en tu máquina local.  
+2. Abrir el archivo **`PR_TelecomX_LATAM.ipynb`** en **Jupyter Notebook** o **Google Colab**.  
+3. Instalar las librerías necesarias (si no están instaladas):  
+
+```bash
+pip install pandas numpy matplotlib seaborn requests
+
      
 ## 👩‍💻 Autora  
 Proyecto desarrollado por **Paulina Rojas** como parte del Challenge de Data Science
